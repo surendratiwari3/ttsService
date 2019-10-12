@@ -18,7 +18,6 @@ import (
 
 type awsRespository struct{
 	awsPollySessionAdapter adapters.AwsAdapter
-	minioSessionAdapter adapters.MinioAdapter
 }
 
 
